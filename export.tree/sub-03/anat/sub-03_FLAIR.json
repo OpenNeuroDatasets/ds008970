@@ -1,0 +1,22 @@
+{
+  "MagneticFieldStrength": 5,
+  "Manufacturer": "UIH",
+  "ManufacturersModelName": "uMR  Jupiter",
+  "SoftwareVersions": "R002",
+  "MRAcquisitionType": "3D",
+  "ScanningSequence": "SE\\IR",
+  "SequenceVariant": "NONE",
+  "ScanOptions": "PFP",
+  "SequenceName": "fse_mx",
+  "EchoTime": 0.32592,
+  "RepetitionTime": 6,
+  "InversionTime": 1.841,
+  "FlipAngle": 90,
+  "AcquisitionMatrixPE": 316,
+  "ReconMatrixPE": 474,
+  "ParallelReductionFactorInPlane": 8.68,
+  "PixelBandwidth": 700,
+  "ConversionSoftware": "dcm2niix",
+  "ConversionSoftwareVersion": "v1.0.20250505",
+  "Defaced": true
+}
