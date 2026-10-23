@@ -1,0 +1,33 @@
+UMR-5T human MRI
+
+This BIDS dataset contains MRI recordings from eight participants acquired at
+5 tesla. It includes 54 NIfTI images: eight T1-weighted, seven T2-weighted,
+seven FLAIR, nine resting-state BOLD runs, nine BOLD reverse-encoding reference
+images, seven diffusion-weighted runs, and seven diffusion reverse-encoding
+reference images. Participant sub-01 has two BOLD runs and a T1-weighted image;
+the other seven participants have one BOLD run and all three structural contrasts.
+Scout images, clinical reports, derived diffusion maps, and the additional TOF
+acquisition are not included in this release. Acquisition parameters and
+fieldmap associations are provided in the JSON sidecars.
+
+De-identification and image preparation
+
+Acquisition dates, equipment serial identifiers and nonessential free-text
+metadata have been omitted. NIfTI free-text fields and extensions have been
+removed. Original DICOM files are not distributed.
+
+All 22 structural images have been defaced. The FSL defacing mask was estimated
+on a temporary 1 mm T1-weighted copy and transferred to the native image grid
+with nearest-neighbour interpolation. For T2-weighted and FLAIR images, rigid
+registration to the temporary T1-weighted copy was used only to transfer the
+binary mask. The released structural images retain their original voxel grid,
+affine, data type and intensity scaling; values inside the retained region are
+bitwise unchanged, and masked voxels are set to zero. Temporary resampled
+images, masks and registration matrices are not part of this dataset.
+
+Orthogonal before/after images were visually checked for facial removal and
+unintended brain removal. This sampled visual check is not an exhaustive
+segmentation-based assessment. Functional, diffusion and reference image
+voxel arrays were not resampled or otherwise preprocessed during packaging.
+
+License: CC0.

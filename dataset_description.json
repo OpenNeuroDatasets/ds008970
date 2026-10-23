@@ -1,0 +1,23 @@
+{
+  "Name": "UMR-5T human MRI",
+  "BIDSVersion": "1.11.1",
+  "DatasetType": "raw",
+  "License": "CC0",
+  "Authors": [
+    "Jianyu Yuan",
+    "Hongtao Zhang",
+    "Liwen Wan",
+    "Yuanxi Shen",
+    "Zhifei Zhu",
+    "Yexin Han",
+    "Zeping Xie",
+    "Pingfu Wang",
+    "Qian Wan",
+    "Xiaojing Long",
+    "Chao Zou",
+    "Dong Liang",
+    "Hairong Zheng",
+    "Ye Li",
+    "Yi He"
+  ]
+}
