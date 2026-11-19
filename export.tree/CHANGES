@@ -1,0 +1,5 @@
+1.1.0 2026-11-19
+  - Added participant sub-09: one 5 T checkerboard task-fMRI run, its defaced T1-weighted image, acquisition metadata, and documented nominal event timings.
+  - Updated participant count to nine and dataset documentation; the original eight-participant cohort and all previously published image files are unchanged.
+1.0.0 2026-10-23
+  - Initial release of de-identified UMR-5T human MRI: eight participants, 54 imaging files; structural images defaced.

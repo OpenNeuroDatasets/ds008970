@@ -1,0 +1,18 @@
+{
+  "onset": {
+    "Description": "Nominal block onset relative to the first saved volume of the complete 600-volume acquisition.",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Nominal stimulus-block duration.",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "Stimulus condition.",
+    "Levels": {
+      "checkerboard": "Visual checkerboard stimulation."
+    }
+  },
+  "TimingSource": "Documented acquisition block design, corroborated by the historical analysis script. Individual stimulus-trigger logs were not available for independent verification.",
+  "Note": "No volumes were removed from the released run. If volumes are removed in an analysis, adjust event onsets consistently."
+}
